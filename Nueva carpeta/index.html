@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido Moderno</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header id="inicio">
+        <section id="titulos">
+            <h4>portafolio web</h4>
+            <h1 id="tendencias">Descubre mi trabajo</h1>
+        </section>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#menu_media">Medios</a>
+        <a href="#menu_galeria">Galería</a>
+        <a href="Contacto.html">Contacto</a>
+    </nav>
+
+    <section class="contenedor" id="menu_news">
+        <h1 class="titulo">Degradados Colores Pastel</h1>
+
+        <!-- Carrusel centrado -->
+        <figure id="carrusel-figura">
+            <h3>Mi Logotipo</h3>
+
+            <div id="carruselProyectos" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carruselProyectos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carruselProyectos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carruselProyectos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <!-- Diapositiva 1 -->
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="image/LuzDeLuna_GuelSantiago.png" class="carrusel-img" alt="Luz de Luna">
+                        <div class="carrusel-capa">
+                            <div class="carrusel-card">
+                                <h2 class="carrusel-titulo">Luz de Luna</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Diapositiva 2 -->
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="image/Eli.jpg" class="carrusel-img" alt="Segundo Proyecto">
+                        <div class="carrusel-capa">
+                            <div class="carrusel-card">
+                                <h2 class="carrusel-titulo">Segundo Proyecto</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Diapositiva 3 -->
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="image/the%20faces%20of%20monster%20in%20heaven.jpeg" class="carrusel-img" alt="Tercer Proyecto">
+                        <div class="carrusel-capa">
+                            <div class="carrusel-card">
+                                <h2 class="carrusel-titulo">Tercer Proyecto</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Botones de control -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carruselProyectos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carruselProyectos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+
+            </div>
+        </figure>
+    </section>
+
+    <!-- ====== SECCIÓN 2: MEDIOS ====== -->
+    <section class="contenedor" id="menu_media">
+        <h1 class="titulo">Medios</h1>
+
+        <div class="media-grid">
+
+            <!-- Video 1 -->
+            <article class="media-item">
+                <h3 class="media-label">Gundam</h3>
+                <video src="medios/video/YTDown_YouTube_Mobile-Suit-Gundam-Iron-Blooded-Orphans-_Media_gz_nHGZutVU_001_1080p.mp4" controls></video>
+            </article>
+
+            <!-- Video 2 -->
+            <article class="media-item">
+                <h3 class="media-label">Kamen Rider</h3>
+                <video src="medios/video/Kamen rider my-th op.mp4" controls></video>
+            </article>
+
+            <!-- Audio -->
+            <article class="media-item">
+                <h3 class="media-label">Audio</h3>
+                <audio src="medios/audio/ヨルシカ - 雨とカプチーノ(Official Video).mp3" controls></audio>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ====== SECCIÓN 3: GALERÍA ====== -->
+    <section class="contenedor" id="menu_galeria">
+        <h1 class="titulo">Galería</h1>
+
+        <div class="galeria-grid">
+            <article class="galeria-item">
+                <img src="image/LuzDeLuna_GuelSantiago.png" alt="Luz de Luna">
+                <span>Luz de Luna</span>
+            </article>
+            <article class="galeria-item">
+                <img src="image/Eli.jpg" alt="Eli">
+                <span>Eli</span>
+            </article>
+            <article class="galeria-item">
+                <img src="image/the%20faces%20of%20monster%20in%20heaven.jpeg" alt="The Faces of Monster in Heaven">
+                <span>The Faces of Monster in Heaven</span>
+            </article>
+            <article class="galeria-item">
+                <img src="image/Evolution%20of%20hero.jpg" alt="Evolution of Hero">
+                <span>Evolution of Hero</span>
+            </article>
+            <article class="galeria-item">
+                <img src="image/images%20(11).jpeg" alt="Imagen 11">
+                <span>Imagen 11</span>
+            </article>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer>
+        <span id="derechos">&copy; 2026 Luis Santiago - Todos los derechos reservados</span>
+    </footer>
+
+    <!-- Bootstrap Bundle JS (requerido para el carrusel) -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
